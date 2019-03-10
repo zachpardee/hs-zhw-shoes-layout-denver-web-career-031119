@@ -23,5 +23,21 @@
 }
 
 /* Positioning Classes */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
+}
 
+.double {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
 
+.details-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+   grid-gap: 1em;
+  justify-items: center;
+  justify-content: start;
+}
